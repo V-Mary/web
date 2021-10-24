@@ -1,11 +1,12 @@
 import {
     getInputValues,
+    clearInputs
   } from "./dom.js";
 
 import {
-    postChainsaw
+    postChainsaw,
+    getAllChainsaws
 } from "./api.js";
-
 const submitButton = document.getElementById("submit_button");
 
 
